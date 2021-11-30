@@ -1,0 +1,3 @@
+<launch>
+  <node name="open_manipulator_freedrive" pkg="open_manipulator_freedrive" type="open_manipulator_freedrive" output="screen"/>
+</launch>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>open_manipulator_freedrive</name>
+  <version>1.0.0</version>
+  <description>
+    Freedrive application
+  </description>
+  <license>Apache 2.0</license>
+  <author email="ga.harkema@avans.nl">Gerard Harkema</author>
+  <maintainer email="ga.harkema@avans.nl">Gerard Harkema</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>open_manipulator_msgs</depend>
+  <depend>ar_track_alvar_msgs</depend>
+</package>
