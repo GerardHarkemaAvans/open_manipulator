@@ -15,30 +15,9 @@
   <xacro:include filename="$(find open_manipulator_description)/urdf/open_manipulator.urdf.xacro" />
 
 
-  <material name="LightGrey">
-      <color rgba="0.7 0.7 0.7 1.0" />
-  </material>
-
 
   <!-- World -->
   <link name="world"/>
-
-  <link name="baseplate_link">
-  <visual>
-    <origin xyz="0.125 0 -0.004" />
-    <geometry>
-      <box size="0.3 0.3 0.008" />
-    </geometry>
-    <material name="LightGrey"/>
-  </visual>
-</link>
-
-<joint name="baseplate_joint" type="fixed">
-  <origin xyz="0 0 0" />
-  <parent link="world" />
-  <child link="baseplate_link" />
-</joint>
-
 
   <!-- World fixed joint-->
   <joint name="world_fixed" type="fixed">
