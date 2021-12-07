@@ -14,7 +14,6 @@ find_package(catkin REQUIRED
     roscpp
     sensor_msgs
     open_manipulator_msgs
-    ar_track_alvar_msgs
 )
 
 ################################################################################
@@ -38,7 +37,6 @@ catkin_package(
     roscpp
     sensor_msgs
     open_manipulator_msgs
-    ar_track_alvar_msgs
 )
 
 ################################################################################

@@ -12,5 +12,4 @@
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
   <depend>open_manipulator_msgs</depend>
-  <depend>ar_track_alvar_msgs</depend>
 </package>
